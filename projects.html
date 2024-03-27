@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WBMS Computer Science Hub</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .topbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .topbar a {
+            float: left;
+            display: block;
+            color: #ffffff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .topbar a:hover {
+            background-color: #3b3b3b;
+            color: white;
+            border-radius: 8px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin: 30px 0;
+            color: rgb(255, 255, 255);
+        }
+
+        h2 {
+            padding-left: 10px;
+            margin: auto;
+        }
+
+        h3 {
+            color: rgb(255, 255, 255);
+            margin-top: 20px;
+            padding-left: 15px;
+        }
+        h5 {
+            margin-top: 5px;
+            margin-bottom: 10px;
+            color: rgb(255, 255, 255);
+            padding-left: 30px;
+        }
+        li {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            color: rgb(255, 255, 255);
+            padding-left: 30px;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        
+        a {
+            color: rgb(58, 147, 255);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: rgb(67, 152, 255)
+        }
+
+        .container {
+            display: grid;
+            align-items: center;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 5px;
+            padding-top: 20px;
+            padding-left: 100px;
+            padding-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        iframe {
+            max-width: 100%;
+            max-height: 100%;
+            padding-right: 100px;
+        }
+
+        .gameTitle {
+            font-size: 30px;
+        }
+
+        .gameAuthor {
+            font-size: 45px;
+            padding-bottom: 10px;
+        }
+
+        .gameDescription {
+            font-size: 15px;
+        }
+
+        .bottomBar {
+            position: fixed;
+            bottom: 0%;
+            width: 100%;
+            height: 40px;
+            background-color: #202020;
+        }
+
+        .bottomText, .githubLink {
+            font-size: 12px;
+            color: #787878;
+            text-align: center;
+            margin: auto;
+        }
+
+        .githubLink {
+            display: flex;
+            justify-content: center;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        .comingSoonText {
+            padding-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="topbar">
+        <a href="home.html">Home</a>
+        <a href="links.html">Links</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+    </div> 
+
+    <header>
+        <h1>Projects</h1>
+    </header>
+
+    <div class="container">
+        <div class="game">
+            <a href="https://studio.code.org/projects/gamelab/osZUcCSlwU5CbkMQXkVG_jrZqIgzTunzRikiwjIPKJU" target="_blank">
+                <img src="images/appledrop.png">
+            </a>
+        </div>
+
+        <div class="info">
+            <h2 class="gameTitle">Apple Drop</h2>
+            <h2 class="gameAuthor">By Charles</h2>
+            <h2 class="gameDescription">In this engaging arcade-style game written by Charles Baker, you control a bowl using the arrow keys. Your job is to catch the falling apples while dodging the dangerous spikes also dropping down. It's all about moving fast and smart to grab apples and avoid getting spiked! As you play, things get trickier, so you've got to stay sharp!</h2>
+            <h2 class="gameDescription"><br>Controls: Arrow Keys</h2>
+        </div>
+    </div>
+
+    <h1 class="comingSoonText"> Adding more projects soon!</h1>
+    <!--
+    <div class="container">
+        <div class="game">
+            <a href="https://studio.code.org/projects/gamelab/osZUcCSlwU5CbkMQXkVG_jrZqIgzTunzRikiwjIPKJU" target="_blank">
+                <img src="images/faygo.webp">
+            </a>
+        </div>
+
+        <div class="info">
+            <h2 class="gameTitle">Blueberry Faygo</h2>
+            <h2 class="gameAuthor">By James Duffy III</h2>
+            <h2 class="gameDescription">The best game about blueberry faygos</h2>
+            <h2 class="gameDescription"><br>Controls: E To Drink</h2>
+        </div>
+    </div>-->
+
+    <div class="bottomBar">
+        <h2 class="bottomText">Credits: Liam (Co Developer), Riley (Co Developer), Charles (Extra Help), Mr. Benson (Hosting Website)</h2>
+        <a class="githubLink" href="https://www.github.com" target="_blank">View Code</a>
+    </div>
+</body>
+</html>

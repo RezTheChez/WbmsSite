@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WBMS Computer Science Hub</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .topbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .topbar a {
+            float: left;
+            display: block;
+            color: #ffffff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            padding-bottom: 10px;
+        }
+
+        .topbar a:hover {
+            background-color: #525252;
+            border-radius: 8px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin: 30px 0;
+            color: rgb(255, 255, 255);
+        }
+
+        h3 {
+            color: rgb(255, 255, 255);
+            margin-top: 0px;
+            padding-left: 15px;
+            filter: blur(0px);
+        }
+        
+        a {
+            color: rgb(58, 147, 255);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            position: relative;
+            text-align: left;
+            width: 100%;
+            height: 443px;
+            padding-top: 100px;
+        }
+
+        .container2 {
+            position: relative;
+            text-align: left;
+            width: 100%;
+            height: 443px;
+        }
+
+        h4 {
+            position: absolute;
+            top: 50%;
+            left: 40%;
+            transform: translate(-50%, -50%);
+            font-size: 30px;
+        }
+
+        .redirect {
+            position: absolute;
+            top: 90%;
+            left: 10%;
+            width: 25%;
+            height: 13%;
+            background-color: rgb(34, 34, 34);
+            border-radius: 8px;
+            text-align: center;
+            font-size: 35px;
+        }
+
+        .redirectText {
+            color: #ffffff;
+        }
+
+        .bottomBar {
+            position: fixed;
+            bottom: 0%;
+            width: 100%;
+            height: 40px;
+            background-color: #202020;
+        }
+
+        .bottomText, .githubLink {
+            font-size: 12px;
+            color: #787878;
+            text-align: center;
+            margin: auto;
+        }
+
+        .githubLink {
+            display: flex;
+            justify-content: center;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="topbar">
+        <a href="home.html">Home</a>
+        <a href="links.html">Links</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+    </div> 
+
+    <header>
+        <h1>WBMS Computer Science Class</h1>
+    </header>
+
+    <div class="container2">
+        <img src="images//aboutBackground.jpg" style="width:100%;height:543px;filter:blur(8px);">
+        <h4>Created by Liam and Riley, 8th graders at WBMS in 2023-2024, this hub aims to provide a central platform for students in Mr. Benson's computer science at Willie Brown Middle School</h4>
+        <div class="redirect"><a class="redirectText" href="about.html">About Page →</a></div>
+    </div>
+
+    <div class="container">
+        <img src="images//linksBackground.png" style="width:100%;height:543px;filter:blur(8px);">
+        <h4>Explore these resources to enhance your understanding of multiple levels of computer science concepts.</h4>
+        <div class="redirect"><a class="redirectText" href="links.html">Links Page →</a></div>
+    </div>
+
+    <div class="container">
+        <img src="images//projectBackground.gif" style="width:100%;height:543px;filter:blur(8px);">
+        <h4>Check out these amazing games created by talented students from WBMS!</h4>
+        <div class="redirect"><a class="redirectText" href="projects.html">Projects Page →</a></div>
+    </div>
+
+    <div class="bottomBar">
+        <h2 class="bottomText">Credits: Liam (Co Developer), Riley (Co Developer), Charles (Extra Help), Mr. Benson (Hosting Website)</h2>
+        <a class="githubLink" href="https://www.github.com" target="_blank">View Code</a>
+    </div>
+</body>
+</html>
